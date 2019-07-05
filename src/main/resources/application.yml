@@ -1,0 +1,11 @@
+spring:
+  data:
+    cluster-name: my-application
+    cluster-nodes: 127.0.0.1:9300
+    local: true
+    repositories:
+      enable: true
+#      properties:
+#        path:
+#          logs: ./elasticsearch/log #elasticsearch日志存储目录
+#          data: ./elasticsearch/data #elasticsearch数据存储目录
