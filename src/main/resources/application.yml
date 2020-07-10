@@ -1,7 +1,14 @@
+server:
+  port: 8009
+
+#logging:
+#  config: F:\previous\elasticsearch-learn\src\main\resources\log4j2-dev.xml
+logging:
+  config: F:\previous\elasticsearch-learn\src\main\resources\log4j.properties
 spring:
   data:
     cluster-name: my-application
-    cluster-nodes: 127.0.0.1:9300
+    cluster-nodes: 127.0.0.1:9700
     local: true
     repositories:
       enable: true
@@ -9,3 +16,4 @@ spring:
 #        path:
 #          logs: ./elasticsearch/log #elasticsearch日志存储目录
 #          data: ./elasticsearch/data #elasticsearch数据存储目录
+
